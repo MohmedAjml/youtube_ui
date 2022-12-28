@@ -12,7 +12,7 @@ List<Map> VideoData = [
   },
   {
     'thumb':
-        'https://i.ytimg.com/an_webp/WgTMeICssXY/mqdefault_6s.webp?du=3000&sqp=CMa4pJ0G&rs=AOn4CLCZ98pNoD4UgQFcy4Y2sB72i1ecEQ',
+        'https://i.ytimg.com/an_webp/3zJWnJpq398/mqdefault_6s.webp?du=3000&sqp=CNyJsJ0G&rs=AOn4CLDXjGS5nPBm1BPRkbwBJTax1tQLAg',
     'duration': '6:08',
     'title': 'RuthB-Dandelions',
     'profile':

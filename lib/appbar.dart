@@ -25,9 +25,15 @@ class _AppbarytState extends State<Appbaryt> {
         appBar: AppBar(
           backgroundColor: Colors.red,
           leading: Padding(
-        padding: const EdgeInsets.only(left: 10),
-        child: Image.asset('assets/youtubeicon.png'),
-      ),
+            padding: const EdgeInsets.only(left: 10),
+            child: Row(
+              children: [
+                Image.asset('assets/youtubeicon.png'),
+                Text('YOUTUBE', style: TextStyle(color: Colors.white)),
+              ],
+            ),
+          ),
+          leadingWidth: 250,
           actions: [
             const SizedBox(
               width: 0.5,
@@ -44,7 +50,11 @@ class _AppbarytState extends State<Appbaryt> {
               icon: const Icon(Icons.search),
               onPressed: () {},
             ),
-            const CircleAvatar(radius: 15,foregroundImage: NetworkImage('https://avatars.githubusercontent.com/u/113675533?s=400&u=fbc58dcb8f6d07244ace4240ebd55d23c09456c7&v=4'),)
+            const CircleAvatar(
+              radius: 15,
+              foregroundImage: NetworkImage(
+                  'https://avatars.githubusercontent.com/u/113675533?s=400&u=fbc58dcb8f6d07244ace4240ebd55d23c09456c7&v=4'),
+            )
           ],
         ),
         body: const Video_Home(),

@@ -39,7 +39,7 @@ class Video_Home extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2)),
                         child: Text(
                           '${data['duration']}',
-                          style: const TextStyle(fontWeight: FontWeight.bold),
+                          style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                         ),
                       ),
                     )

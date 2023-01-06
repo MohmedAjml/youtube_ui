@@ -12,7 +12,7 @@ List<Map> VideoData = [
   },
   {
     'thumb':
-        'https://i.ytimg.com/an_webp/3zJWnJpq398/mqdefault_6s.webp?du=3000&sqp=CNyJsJ0G&rs=AOn4CLDXjGS5nPBm1BPRkbwBJTax1tQLAg',
+        'https://i.ytimg.com/vi/78nCEZtBDzs/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_A6AArgIigIMCAAQARheIGUoRzAP&rs=AOn4CLB9puSbHSdebjMlq3PCgYXZEtJX0g',
     'duration': '6:08',
     'title': 'RuthB-Dandelions',
     'profile':
@@ -42,5 +42,16 @@ List<Map> VideoData = [
     'chname': 'Iman Ghadzhi',
     'views': 1.6,
     'date': '1 years ago',
+  },
+  {
+    'thumb':
+        'https://i.ytimg.com/vi/GhO_2lGqaEE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyP9bYCJegYr-zeeSMdLU2EtrX4g',
+    'duration': '08:16',
+    'title': 'What Happens If We Pour All Earths Water on the Sun',
+    'profile':
+        'https://yt3.ggpht.com/XDA6ig1JeTk6W84g4ipe4LhkWsghnDjq1Zuod27XxRrLkthoLBC3gj_zxQcop1kSBzw3BKIj=s176-c-k-c0x00ffffff-no-rj',
+    'chname': 'BRIGHT SIDE',
+    'views': 1.3,
+    'date': '1 hour ago',
   },
 ];

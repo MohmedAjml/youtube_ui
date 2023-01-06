@@ -28,15 +28,15 @@ class _AppbarytState extends State<Appbaryt> {
             padding: const EdgeInsets.only(left: 10),
             child: Row(
               children: [
-                Image.asset('assets/youtubeicon.png'),
-                Text('YOUTUBE', style: TextStyle(color: Colors.white)),
+                Image.asset('assets/yticon.png'),
+                const Text('YOUTUBE', style: TextStyle(color: Colors.white)),
               ],
             ),
           ),
-          leadingWidth: 250,
+          leadingWidth: 150,
           actions: [
             const SizedBox(
-              width: 0.5,
+              width: 1.5,
             ),
             IconButton(
               icon: const Icon(Icons.cast),
